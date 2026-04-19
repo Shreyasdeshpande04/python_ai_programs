@@ -1,0 +1,62 @@
+Folder PATH listing
+Volume serial number is C879-E090
+C:.
+|   .env
+|   requirements.txt
+|   structure.txt
+|   
++---app
+|   |   main.py
+|   |   __init__.py
+|   |   
+|   +---llm
+|   |   |   llm_client.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           llm_client.cpython-313.pyc
+|   |           __init__.cpython-313.pyc
+|   |           
+|   +---routes
+|   |   |   chat.py
+|   |   |   export.py
+|   |   |   upload.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           upload.cpython-313.pyc
+|   |           __init__.cpython-313.pyc
+|   |           
+|   +---services
+|   |   |   ai_engine.py
+|   |   |   analyzer.py
+|   |   |   code_executor.py
+|   |   |   data_loader.py
+|   |   |   data_manager.py
+|   |   |   pdf_service.py
+|   |   |   visualizer.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           ai_engine.cpython-313.pyc
+|   |           analyzer.cpython-313.pyc
+|   |           code_executor.cpython-313.pyc
+|   |           data_loader.cpython-313.pyc
+|   |           data_manager.cpython-313.pyc
+|   |           visualizer.cpython-313.pyc
+|   |           __init__.cpython-313.pyc
+|   |           
+|   \---__pycache__
+|           main.cpython-313.pyc
+|           __init__.cpython-313.pyc
+|           
++---exports
+|       __init__.py
+|       
++---memory
+|       session_store.py
+|       __init__.py
+|       
+\---uploads
+        100 Sales Records.csv
+        
